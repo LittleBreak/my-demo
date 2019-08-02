@@ -1,0 +1,18 @@
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.insert {
+  animation-name: slideInLeft;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: slideInLeft 0.8s ease 1s ;
+}

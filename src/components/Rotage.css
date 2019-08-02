@@ -1,0 +1,19 @@
+.rotage{
+  width: 300px;
+  height: 300px;
+  border: 3px dashed red;
+  margin: 100px;
+  border-radius: 50%;
+  animation: rotage 5s linear 0s infinite;
+}
+@keyframes rotage {
+  from {
+    transform: rotate(0deg);
+    /* visibility: hidden; */
+  }
+
+  to {
+    transform: rotate(360deg);
+    /* visibility: visible; */
+  }
+}
