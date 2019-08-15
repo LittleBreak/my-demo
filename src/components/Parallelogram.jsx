@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import './Parallelogram.css';
+import screenfull from "screenfull";
 
 // 平行四边形
 class Parallelogram extends Component {
+  componentDidMount() {
+    screenfull.request();
+  }
   render() {
     return (
       <div className="item-container">
@@ -12,7 +16,7 @@ class Parallelogram extends Component {
         <div className="item">广东</div>
         <div className="item">山东</div>
         <div className="item">上海</div>
-        <div className="item">浙江</div>        
+        <div className="item">浙江</div>
       </div>
     );
   }

@@ -8,13 +8,14 @@ import SpringCom from './components/SpringCom';
 import List from './components/list';
 import Parallelogram from './components/Parallelogram';
 import Rotage from './components/Rotage';
+import ZNSort from './components/ZNSort';
+import Grid from './components/Grid';
 
 function App() {
   return (
     <div className="App">
-      {/* <Transform></Transform> */}
+      <Grid></Grid>
       {/* <div className="box">box</div> */}
-      <div className="light">是否和卢卡斯京东方</div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@antv/data-set": "^0.10.2",
+    "ag-grid-community": "^21.1.1",
+    "ag-grid-react": "^21.1.0",
     "bizcharts": "^3.5.4",
     "echarts": "^4.2.1",
     "echarts-for-react": "^2.0.15-beta.0",
@@ -14,7 +16,8 @@
     "react-dom": "^16.8.6",
     "react-pose": "^4.0.8",
     "react-scripts": "3.0.1",
-    "react-spring": "^8.0.27"
+    "react-spring": "^8.0.27",
+    "screenfull": "^4.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
